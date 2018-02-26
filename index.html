@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Signup Form</title>
+</head>
+
+<body>
+
+  <form>
+    <fieldset>
+      <label>Email Address</label>
+      <input type="email" required placeholder="Enter your email address"><br>
+
+      <label>Password</label>
+      <input type="password" required placeholder="Enter your password"><br>
+
+      <label>Github username</label>
+      <input type="text" required placeholder="Enter your Github username"><br>
+
+      <input type="checkbox" id="checkbox">
+      <label for="checkbox">Remember Me</label><br>
+    </fieldset>
+
+    <fieldset>
+      <label>Choose Your Subscription</label><br>
+      <input type="radio" id="subscriptionChoice1" name="subscription" value="email">
+      <label for="subscriptionChoice1">Enterprise</label><br>
+
+      <input type="radio" id="subscriptionChoice2" name="subscription" value="phone">
+      <label for="subscriptionChoice2">Pro</label><br>
+
+      <input type="radio" id="subscriptionChoice3" name="subscription" value="mail">
+      <label for="subscriptionChoice3">Free</label><br>
+    </fieldset>
+
+    <fieldset>
+      <button type="submit" name="submit">Submit</button>
+    </fieldset>
+  </form>
+
+</body>
+
+</html>
